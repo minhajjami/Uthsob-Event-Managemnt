@@ -1,0 +1,211 @@
+body{
+	background-color: #CCC
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#menudiv{
+	position: absolute;
+	left: 250px;
+	top: 50px;
+
+	width: 800px;
+	height: auto;
+	margin: auto;
+	z-index: 5000;
+
+}
+
+
+
+
+ul li{
+	
+	float: left;
+	width: 100px;
+	height: 50px;
+	background-color: #570557;
+	line-height: 50px;
+	text-align: center;
+	z-index: 5000;
+
+	
+}
+
+ul{
+	list-style: none;
+	z-index: 5000;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: adobe gothic std;
+	z-index: 5000;
+
+	
+}
+
+ul li ul li{
+	display: none;
+	z-index: 5000;
+}
+ul li:hover ul li{
+	display: block;
+	z-index: 5000;
+}
+
+#headdiv{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1300px;
+	height: 100px;
+	background-color: #570557;
+}
+#logo{
+	position:absolute; 
+    left:50px; 
+    top:30px;	
+}
+#fb{
+	position:absolute; 
+    right:80px; 
+    top:50px;	
+}
+#twit{
+	position:absolute; 
+    right:50px; 
+    top:50px;	
+}
+#follow{
+	font-size: 14px;
+	color: white;
+	font-family: adobe gothic std;
+	position:absolute; 
+    right:50px; 
+    top:20px;	
+}
+#foot{
+		background-color: #570557;
+		position: absolute;
+		top: 4100px;
+		left: 0px;
+		width: 1300px;
+		height: 100px;
+	}
+
+	#foot p{
+	color: white;		
+	
+	font-size: 12px;
+	line-height: 50px;
+	text-align: center;
+	}
+#welcome{
+	position: absolute;
+	top: 150px;
+	left: 550px;
+	font-size: 35px;
+	color: black;
+	font-family: adobe gothic std;
+	text-decoration: none;
+}
+
+#event{
+	position: absolute;
+	top: 200px;
+	left:550px;
+	font-size: 40px;
+	color: black;
+	font-family: Stencil Std;
+	text-decoration: underline;
+	
+}
+#weddingpic{
+	position: absolute;
+	top : 300px;
+	left: 0px;
+}
+
+#partypic{
+	position: absolute;
+	top : 1250px;
+	left: 0px;
+}
+
+#conferencepic{
+	position: absolute;
+	top : 2200px;
+	left: 0px;
+}
+
+#festpic{
+	position: absolute;
+	top : 3150px;
+	left: 0px;
+}
+
+#wedding{
+	color: #811402;
+	font-family: Hobo Std;
+	font-size: 60px;
+	position: absolute;
+	top: 1000px;
+	left: 540px;
+	text-decoration: underline;
+}
+
+
+#party{
+	color: #811402;
+	font-family: Hobo Std;
+	font-size: 60px;
+	position: absolute;
+	top: 1950px;
+	left: 420px;
+	text-decoration: underline;
+}
+
+
+#conference{
+	color: #811402;
+	font-family: Hobo Std;
+	font-size: 60px;
+	position: absolute;
+	top: 2900px;
+	left: 370px;
+	text-decoration: underline;
+}
+
+#fest{
+	color: #811402;
+	font-family: Hobo Std;
+	font-size: 60px;
+	position: absolute;
+	top: 3850px;
+	left: 590px;
+	text-decoration: underline;
+}
+
+#reg {
+    position: absolute;
+    top: 20px;
+    right: 170px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white; 
+    width: 80px;
+    height: 50px;
+    font: bold 12px Adobe Fan Heiti Std, Helvetica;
+}
+
+#log {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    width: 80px;
+    height: 50px;
+    font: bold 12px Adobe Fan Heiti Std, Helvetica;
+}
